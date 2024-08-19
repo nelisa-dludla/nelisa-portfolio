@@ -8,4 +8,4 @@ This portfolio is built with React, focusing on simplicity and functionality. It
 
 ## Live Site
 
-Coming Soon.
+Check out the live version of the site [here](https://nelisadludla.tech)
