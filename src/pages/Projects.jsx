@@ -13,7 +13,7 @@ const Projects = () => {
         <h2 className="font-bold text-2xl lg:text-4xl mx-10 lg:mx-10 mt-10">Projects</h2>
         <section id="projects" className="container mx-10 lg:mx-0">
           {/* Project Card - Red Flag Social */}
-          <div className="flex flex-col lg:flex-row my-10 lg:my-20">
+          <div className="flex flex-col lg:flex-row my-10 mr-10 lg:mr-0 lg:my-20">
             {/* LHS */}
             <div className="max-w-96 lg:max-w-3xl">
               <h5 className="font-bold text-xl mb-5">Red Flag Social</h5>
@@ -48,7 +48,7 @@ const Projects = () => {
               </div>
             </div>
             {/* RHS */}
-            <div className="max-w-96 lg:max-w-2xl mt-10 lg:mt-0">
+            <div className="max-w-80 md:max-w-96 lg:max-w-2xl mt-10 lg:mt-0">
               <a href="https://red-flag-social.onrender.com/" target="_blank">
                 <img
                   className="w-full border border-black"
@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
           </div>
           {/* Project Card - FrontSeat */}
-          <div className="flex flex-col lg:flex-row my-10 lg:my-20">
+          <div className="flex flex-col lg:flex-row my-10 mr-10 lg:mr-0 lg:my-20">
             {/* LHS */}
             <div className="max-w-96 lg:max-w-3xl">
               <h5 className="font-bold text-xl mb-5">FrontSeat</h5>
@@ -94,7 +94,7 @@ const Projects = () => {
               </div>
             </div>
             {/* RHS */}
-            <div className="max-w-96 lg:max-w-2xl mt-10 lg:mt-0">
+            <div className="max-w-80 md:max-w-96 lg:max-w-2xl mt-10 lg:mt-0">
               <a href="https://frontseat.pages.dev/" target="_blank">
                 <img
                   className="w-full border border-black"
