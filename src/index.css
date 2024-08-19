@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #F2F0EF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.portfolio-green-bg {
+  background-color: #4CB944;
+}
+
+.portfolio-yellow-bg {
+  background-color: #FBDC34;
+}
+
+.portfolio-white-bg {
+  background-color: #F2F0EF;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+.no-hover {
+}
+
+.no-hover:hover {
+  font-weight: 400;
+}
+
+#home, #contact {
+  height: calc(100vh - 80px);
+}
+
+#hamburger-menu {
+  transition: all 250ms ease-in-out;
+}
+
+.cta-btn {
+  transition: all 250ms ease-in-out;
+}
+
+.cta-btn:hover {
+  background-color: #F2F0EF;
+}
