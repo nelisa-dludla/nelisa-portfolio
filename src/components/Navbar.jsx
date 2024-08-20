@@ -1,26 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
-  const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-
-  const handleResize = () => {
-    if (window.innerWidth < 768) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-      setIsOpen(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("load", handleResize);
-    window.addEventListener("resize", handleResize);
-  });
 
   const handleClick = () => {
     setIsOpen(true);
@@ -47,22 +32,19 @@ const Navbar = () => {
             </ul>
           </div>
           {/* RHS*/}
-          {isMobile ? (
-            <button className="text-2xl p-2" onClick={handleClick}>
-              <FontAwesomeIcon icon={faBars} style={{ color: "#000000" }} />
-            </button>
-          ) : (
-            <div className="hidden md:block">
-              <ul className="flex flex-row">
-                <Link to="/projects">
-                  <li className="p-2 my-auto">Projects</li>
-                </Link>
-                <Link to="/contact">
-                  <li className="p-2 my-auto">Contact</li>
-                </Link>
-              </ul>
-            </div>
-          )}
+          <button className="text-2xl p-2 block md:hidden" onClick={handleClick}>
+            <FontAwesomeIcon icon={faBars} style={{ color: "#000000" }} />
+          </button>
+          <div className="hidden md:block">
+            <ul className="flex flex-row">
+              <Link to="/projects">
+                <li className="p-2 my-auto">Projects</li>
+              </Link>
+              <Link to="/contact">
+                <li className="p-2 my-auto">Contact</li>
+              </Link>
+            </ul>
+          </div>
         </nav>
       )}
     </>

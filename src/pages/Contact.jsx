@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <div className="container mx-auto">
         <Navbar />
-        <section id="contact" className="container mx-10 md:mx-0">
+        <section id="contact" className="container px-10 md:px-4">
         <h2 className="font-bold text-2xl md:text-4xl mt-10 mb-5">Contact</h2>
           <p className="text md:text-xl mb-10">Feel free to reach out—I'd love to hear from you.</p>
 
