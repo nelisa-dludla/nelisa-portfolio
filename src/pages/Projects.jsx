@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import redFlagSocial from "../assets/images/red-flag-social.png";
 import frontSeat from "../assets/images/front-seat.png";
 import emojiRiddle from "../assets/images/emoji-riddle.png";
+import suCasa from "../assets/images/su-casa.png";
 
 const Projects = () => {
   return (
@@ -47,9 +48,8 @@ const Projects = () => {
               </p>
               <div className="mt-6">
                 <i className="devicon-react-original colored text-7xl mr-8"></i>
-                
-            <i className="devicon-typescript-plain colored text-7xl"></i>
 
+                <i className="devicon-typescript-plain colored text-7xl"></i>
               </div>
             </div>
             {/* RHS */}
@@ -150,6 +150,56 @@ const Projects = () => {
                   className="w-full border border-black"
                   src={frontSeat}
                   alt="A screenshot of FrontSeat's Landing Page"
+                />
+              </a>
+            </div>
+          </div>
+          {/* Project Card - Su Casa */}
+          <div className="flex flex-col lg:flex-row my-10 md:mr-10 lg:mr-0 lg:my-20">
+            {/* LHS */}
+            <div className="max-w-96 md:max-w-xl lg:max-w-3xl">
+              <h5 className="font-bold text-xl mb-5">Su Casa</h5>
+              <p className="mb-4 md:pr-4 text-justify">
+                An e-commerce platform dedicated to offering a curated selection
+                of exquisite home decor and furniture pieces. Elevate your
+                home's aesthetics with our diverse range of styles, all while
+                maintaining affordability and elegance.
+                <br />
+                <br />
+                <b>Note:</b> This is a static proof-of-concept website intended to
+                showcase front-end development skills and is not fully
+                functional for online transactions.
+              </p>
+              <span className="flex items-center">
+                <i className="devicon-github-original colored text-2xl mr-2"></i>
+                <a
+                  href="https://github.com/nelisa-dludla/su-casa-e-commerce-website"
+                  target="_blank"
+                >
+                  GitHub Repository
+                </a>
+              </span>
+              <p className="flex items-center">
+                <span className="p-2 font-bold text-2xl">{"> "}</span>
+                <a href="https://sucasa.pages.dev" target="_blank">
+                  Live Application
+                </a>
+              </p>
+              <div className="mt-6">
+                <i className="devicon-html5-plain-wordmark colored text-7xl mr-8"></i>
+
+                <i className="devicon-css3-plain-wordmark colored text-7xl mr-8"></i>
+
+                <i className="devicon-javascript-plain colored text-7xl mr-8"></i>
+              </div>
+            </div>
+            {/* RHS */}
+            <div className="max-w-80 md:max-w-96 lg:max-w-2xl mt-10 lg:mt-0">
+              <a href="https://sucasa.pages.dev" target="_blank">
+                <img
+                  className="w-full border border-black"
+                  src={suCasa}
+                  alt="A screenshot of Emoji Riddle's Game Play"
                 />
               </a>
             </div>
