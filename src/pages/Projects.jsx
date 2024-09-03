@@ -31,7 +31,7 @@ const Projects = () => {
                 answer and see how many you can solve! 🌟
               </p>
               <span className="flex items-center">
-                <i class="devicon-github-original colored text-2xl mr-2"></i>
+                <i className="devicon-github-original colored text-2xl mr-2"></i>
                 <a
                   href="https://github.com/nelisa-dludla/emoji-riddle"
                   target="_blank"
@@ -46,9 +46,9 @@ const Projects = () => {
                 </a>
               </p>
               <div className="mt-6">
-                <i class="devicon-react-original colored text-7xl mr-8"></i>
+                <i className="devicon-react-original colored text-7xl mr-8"></i>
                 
-            <i class="devicon-typescript-plain colored text-7xl"></i>
+            <i className="devicon-typescript-plain colored text-7xl"></i>
 
               </div>
             </div>
@@ -75,7 +75,7 @@ const Projects = () => {
                 fostering community awareness and flagging potential red flags.
               </p>
               <span className="flex items-center">
-                <i class="devicon-github-original colored text-2xl mr-2"></i>
+                <i className="devicon-github-original colored text-2xl mr-2"></i>
                 <a
                   href="https://github.com/nelisa-dludla/red-flag-social"
                   target="_blank"
@@ -90,11 +90,11 @@ const Projects = () => {
                 </a>
               </p>
               <div className="mt-6">
-                <i class="devicon-django-plain-wordmark colored text-7xl mr-8"></i>
+                <i className="devicon-django-plain-wordmark colored text-7xl mr-8"></i>
 
-                <i class="devicon-bootstrap-plain-wordmark colored text-7xl mr-8"></i>
+                <i className="devicon-bootstrap-plain-wordmark colored text-7xl mr-8"></i>
 
-                <i class="devicon-postgresql-plain-wordmark colored text-7xl"></i>
+                <i className="devicon-postgresql-plain-wordmark colored text-7xl"></i>
               </div>
             </div>
             {/* RHS */}
@@ -136,11 +136,11 @@ const Projects = () => {
                 </a>
               </p>
               <div className="mt-6">
-                <i class="devicon-html5-plain-wordmark colored text-7xl mr-8"></i>
+                <i className="devicon-html5-plain-wordmark colored text-7xl mr-8"></i>
 
-                <i class="devicon-css3-plain-wordmark colored text-7xl mr-8"></i>
+                <i className="devicon-css3-plain-wordmark colored text-7xl mr-8"></i>
 
-                <i class="devicon-javascript-plain colored text-7xl mr-8"></i>
+                <i className="devicon-javascript-plain colored text-7xl mr-8"></i>
               </div>
             </div>
             {/* RHS */}

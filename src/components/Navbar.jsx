@@ -22,17 +22,20 @@ const Navbar = () => {
             <ul className="flex flex-row">
               <li className="portfolio-green-bg w-4 h-4 mb:w-7 mb:h-7 my-auto rounded-full"></li>
               <Link to="/home">
-                <li className="p-2 font-bold text-md mb:text-xl my-auto">
+                <li className="p-2 font-bold text-sm sm:text-md mb:text-xl my-auto">
                   Nelisa Dludla
                 </li>
               </Link>
-              <li className="text-sm mb:text p-2 my-auto">
-                Software Developer
+              <li className="text-xs sm:text-sm mb:text-base p-2 my-auto">
+                Software & Web Developer
               </li>
             </ul>
           </div>
           {/* RHS*/}
-          <button className="text-2xl p-2 block md:hidden" onClick={handleClick}>
+          <button
+            className="text-2xl p-2 block md:hidden"
+            onClick={handleClick}
+          >
             <FontAwesomeIcon icon={faBars} style={{ color: "#000000" }} />
           </button>
           <div className="hidden md:block">

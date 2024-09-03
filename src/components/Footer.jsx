@@ -10,10 +10,10 @@ const Footer = () => {
         <div>
           <p className="font-bold mt-4 mb:mt-0 mb-0 mb:mb-2">Follow Me</p>
 
-          <a href="https://www.linkedin.com/in/nelisa-dludla/" target="_blank"><i class="devicon-linkedin-plain colored text-2xl mr-4"></i></a>
+          <a href="https://www.linkedin.com/in/nelisa-dludla/" target="_blank"><i className="devicon-linkedin-plain colored text-2xl mr-4"></i></a>
 
           <a href="https://github.com/nelisa-dludla" target="_blank">
-          <i class="devicon-github-original colored text-2xl"></i>
+          <i className="devicon-github-original colored text-2xl"></i>
           </a>
         </div>
         <div className="text-gray-500 mt-4 mb:mt-0">&copy; {date.getFullYear()} By Nelisa Dludla.</div>

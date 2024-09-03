@@ -10,20 +10,20 @@ const Home = () => {
         <Navbar />
         <section id="home" className="z-0 flex flex-col items-center md:flex-row md:justify-center md:items-center">
           {/* LHS */}
-          <div className="mt-10 max-w-64 sm:max-w-80 md:max-w-96 rounded-full border border-black">
+          <div className="mt-10 max-w-52 sm:max-w-80 md:max-w-96 rounded-full border border-black">
             <img
               className="object-cover rounded-full h-full w-full"
               src={profilePicture}
-              alt="Nelisa's Profile Picture"
+              alt="A picture of Nelisa"
             />
           </div>
           {/* RHS */}
           <div className="p-10">
             <h1 className="font-bold text-3xl md:text-7xl">Hello, I'm Nelisa</h1>
-            <p className="text-lg my-6 md:my-12">
-              I'm a self-taught software developer with an itch to build and
+            <h2 className="text-lg my-6 md:my-12">
+              I'm a self-taught software and web developer with an itch to build and
               create.
-            </p>
+            </h2>
             {/* "CTA Buttons" */}
             <div className="flex justify-center md:justify-normal">
               <Link to="/projects">
